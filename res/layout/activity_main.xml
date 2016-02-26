@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#1c1c1c"
+     >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="4"
+         >
+        
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本机包含下列传感器（点击查看详细） " 
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="#912cee"
+        />
+    
+	<ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#141414" 
+        android:layout_below="@id/textView3"
+        android:layout_marginTop="10dp"
+        >
+    </ListView>
+
+
+    
+	
+    
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="3"
+         >
+    <TextView 
+        android:id="@+id/data6" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:textColor="#c1cdcd" 
+        android:layout_alignParentTop="true" 
+        android:text=""
+        android:textSize="14sp" 
+        />
+    <TextView 
+        android:id="@+id/data1" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_below="@id/data6" 
+        android:textColor="#c1cdcd" 
+        android:textSize="14sp" 
+        />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp" 
+        android:layout_weight="1"
+        >
+		<Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_num_button"
+            android:text=" 查看实时曲线 " 
+            android:textColor="#FF83FA"
+            />
+		<Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_num_button"
+            android:text=" 采集数据 " 
+            android:textColor="#FF83FA"
+            />
+        
+    </LinearLayout>
+
+</LinearLayout>
