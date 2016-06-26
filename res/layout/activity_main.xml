@@ -67,21 +67,34 @@
         android:layout_width="match_parent"
         android:layout_height="0sp" 
         android:layout_weight="1"
+        android:layout_gravity="center"
         >
 		<Button
             android:id="@+id/button1"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/bg_num_button"
             android:text=" 查看实时曲线 " 
+            android:gravity="center"
             android:textColor="#FF83FA"
             />
+        
+    </LinearLayout>
+    	
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp" 
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        >
 		<Button
             android:id="@+id/button2"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/bg_num_button"
             android:text=" 采集数据 " 
+            android:gravity="center"
             android:textColor="#FF83FA"
             />
         

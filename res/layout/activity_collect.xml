@@ -2,13 +2,14 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
-    
-        <TextView
+
+    <TextView
         android:id="@+id/collectText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="" />
-        <TextView
+
+    <TextView
         android:id="@+id/collectText2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,23 +19,21 @@
         android:id="@+id/startButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="开始采集"
         android:background="@drawable/bg_num_button"
-         />
+        android:text="开始采集" />
 
     <Button
         android:id="@+id/stopButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="停止采集"
         android:background="@drawable/bg_num_button"
-         />
+        android:text="停止采集" />
 
     <TextView
         android:id="@+id/edittextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="文件名：(不用写中文)" />
+        android:text="文件名：(请用英文)" />
 
     <EditText
         android:id="@+id/editText1"
@@ -49,10 +48,12 @@
         android:id="@+id/saveButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="保存数据"
         android:background="@drawable/bg_num_button"
-         />
-    
-    
+        android:text="保存数据" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数据将被存储到本地目录的CIPS-DataCollect目录下，三个value值分别存一个文件" />
 
 </LinearLayout>

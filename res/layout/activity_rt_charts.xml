@@ -8,7 +8,7 @@
         android:text="实时环境信息"
         android:layout_width="wrap_content"
     	android:layout_height="wrap_content"
-        android:gravity="center"
+        android:gravity="left"
         android:id="@+id/myview"
         />
 
@@ -20,17 +20,38 @@
         >      	
     </LinearLayout>
     <LinearLayout
-    	android:layout_width="wrap_content"
+    	android:layout_width="match_parent"
     	android:layout_height="wrap_content"
     	android:orientation="horizontal"
+    	android:gravity="center"
+   		 >
+    	<Button 
+	    	android:text="更换value维度"
+	   	 	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="vertical"
+	    	android:paddingTop="10dp"
+	    	android:id="@+id/changeNnmberButton"
+	    	android:background="@drawable/bg_num_button"
+	    	android:gravity="center"
+    	/>
+    </LinearLayout>
+    
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:gravity="center"
    		 >
     	<Button 
 	    	android:text="返回"
-	   	 	android:layout_width="wrap_content"
+	   	 	android:layout_width="match_parent"
 	    	android:layout_height="wrap_content"
 	    	android:orientation="vertical"
 	    	android:paddingTop="10dp"
 	    	android:id="@+id/goBackButton"
+	    	android:background="@drawable/bg_num_button"
+	    	android:gravity="center"
     	/>
     </LinearLayout>
 

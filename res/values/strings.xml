@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">test_sensor</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_rt_charts">RtChartsActivity</string>
-    <string name="title_activity_collect">CollectActivity</string>
+    <string name="app_name">传感器数据采集</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_rt_charts">查看传感器实时数据</string>
+    <string name="title_activity_collect">传感器数据采集</string>
 
 </resources>
